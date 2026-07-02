@@ -1,0 +1,693 @@
+[
+  {
+    "name": "iPhone 16 Pro",
+    "description": "Premium titanium smartphone featuring an advanced camera system, pro-grade performance, and an immersive Always-On display.",
+    "price": 104499,
+    "category": "Electronics",
+    "stock": 29,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800"
+  },
+  {
+    "name": "Samsung Galaxy S25",
+    "description": "Next-gen flagship phone with a sleek armor aluminum frame, striking dynamic AMOLED screen, and pro-grade AI-powered photography.",
+    "price": 56999,
+    "category": "Electronics",
+    "stock": 76,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=800"
+  },
+  {
+    "name": "Google Pixel 9",
+    "description": "The ultimate Google AI experience packed into a refined design with an industry-leading camera for stunning day-and-night photos.",
+    "price": 117999,
+    "category": "Electronics",
+    "stock": 80,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800"
+  },
+  {
+    "name": "OnePlus 13",
+    "description": "High-performance smartphone featuring ultra-fast charging, a fluid high-refresh-rate display, and a Hasselblad camera system.",
+    "price": 76499,
+    "category": "Electronics",
+    "stock": 86,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1565630916779-e303be97b6f5?w=800"
+  },
+  {
+    "name": "MacBook Air M4",
+    "description": "Strikingly thin laptop powered by the next-generation M-series chip, offering silent fanless cooling and all-day battery life.",
+    "price": 28499,
+    "category": "Electronics",
+    "stock": 80,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800"
+  },
+  {
+    "name": "Dell XPS 15",
+    "description": "Premium creator laptop featuring a stunning InfinityEdge display, powerful dedicated graphics, and a sleek machined aluminum chassis.",
+    "price": 15499,
+    "category": "Electronics",
+    "stock": 30,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=800"
+  },
+  {
+    "name": "Lenovo Legion 5",
+    "description": "High-tier gaming laptop equipped with robust thermal cooling, a fast refresh gaming panel, and a tactical RGB backlit keyboard.",
+    "price": 77999,
+    "category": "Electronics",
+    "stock": 48,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=800"
+  },
+  {
+    "name": "Apple AirPods Pro",
+    "description": "Intelligent wireless earbuds featuring adaptive active noise cancellation, personalized spatial audio, and an ergonomic secure fit.",
+    "price": 87499,
+    "category": "Electronics",
+    "stock": 67,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1588449668365-d15e397f6787?w=800"
+  },
+  {
+    "name": "Sony WH-1000XM5",
+    "description": "Industry-leading over-ear headphones delivering unparalleled noise cancellation, exceptional high-res audio, and crystal-clear calling.",
+    "price": 74999,
+    "category": "Electronics",
+    "stock": 46,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=800"
+  },
+  {
+    "name": "JBL Flip 6",
+    "description": "Portable waterproof Bluetooth speaker delivering powerful, loud stereo sound with deep bass for outdoor and indoor adventures.",
+    "price": 2499,
+    "category": "Electronics",
+    "stock": 19,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800"
+  },
+  {
+    "name": "Apple Watch Series 10",
+    "description": "Advanced smartwatch with a expansive always-on display, comprehensive fitness tracking, and vital health monitoring sensors.",
+    "price": 9499,
+    "category": "Electronics",
+    "stock": 49,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=800"
+  },
+  {
+    "name": "iPad Air",
+    "description": "Versatile lightweight tablet featuring a vivid Liquid Retina display, powerful processor, and support for creative stylus accessories.",
+    "price": 5999,
+    "category": "Electronics",
+    "stock": 56,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800"
+  },
+  {
+    "name": "Logitech MX Master 3S",
+    "description": "Ergonomic performance mouse engineered for programmers and creators, featuring silent clicks and an ultra-fast MagSpeed scroll wheel.",
+    "price": 90499,
+    "category": "Electronics",
+    "stock": 41,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=800"
+  },
+  {
+    "name": "Canon EOS R50",
+    "description": "Compact mirrorless camera designed for content creators, featuring fast autofocus, 4K video recording, and a vari-angle touchscreen.",
+    "price": 110999,
+    "category": "Electronics",
+    "stock": 90,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800"
+  },
+  {
+    "name": "Sony ZV-E10",
+    "description": "Alpha vlogging camera featuring interchangeable lenses, optimized background defocus accents, and a directional 3-capsule microphone.",
+    "price": 112999,
+    "category": "Electronics",
+    "stock": 30,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=800"
+  },
+  
+  {
+    "name": "Nothing Phone 3",
+    "description": "Innovative smartphone featuring a unique transparent back glass panel, customizable Glyph interface lights, and minimalist operating system.",
+    "price": 75499,
+    "category": "Electronics",
+    "stock": 48,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1616348436168-de43ad0db179?w=800"
+  },
+  {
+    "name": "HP Spectre x360",
+    "description": "Premium 2-in-1 convertible laptop featuring a spectacular OLED display, gem-cut accent chassis, and flexible tent-to-tablet viewing modes.",
+    "price": 65999,
+    "category": "Electronics",
+    "stock": 30,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800"
+  },
+  
+  {
+    "name": "Xiaomi Pad 7",
+    "description": "Sleek entertainment and productivity tablet with a high-resolution display, rich cinematic speakers, and smooth multitasking power.",
+    "price": 14999,
+    "category": "Electronics",
+    "stock": 12,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?w=800"
+  },
+  {
+    "name": "Oversized T-Shirt",
+    "description": "Relaxed fit streetwear tee crafted from ultra-soft heavy cotton for a casual drop-shoulder silhouette and premium comfort.",
+    "price": 23499,
+    "category": "Fashion",
+    "stock": 98,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=800"
+  },
+  {
+    "name": "Classic Hoodie",
+    "description": "Essential cozy hoodie pullover made from warm fleece lining, equipped with a roomy kangaroo pouch and adjustable drawstring hood.",
+    "price": 4999,
+    "category": "Fashion",
+    "stock": 72,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800"
+  },
+  {
+    "name": "Slim Fit Jeans",
+    "description": "Tailored, modern denim jeans crafted with subtle stretch fabrics to combine a sharp silhouette with absolute day-long movement.",
+    "price": 107499,
+    "category": "Fashion",
+    "stock": 26,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=800"
+  },
+  {
+    "name": "Denim Jacket",
+    "description": "Timeless vintage-style button-up jean jacket featuring a rugged structural build, durable stitching, and dual chest pockets.",
+    "price": 81999,
+    "category": "Fashion",
+    "stock": 65,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=800"
+  },
+  {
+    "name": "Cargo Pants",
+    "description": "Utilitarian tactical cargo trousers designed with versatile spacious side pockets and durable, tear-resistant woven fabric.",
+    "price": 119499,
+    "category": "Fashion",
+    "stock": 64,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1517423738875-5ce310acd3da?w=800"
+  },
+ 
+  {
+    "name": "Polo T-Shirt",
+    "description": "Smart-casual essential knit polo shirt detailed with a classic ribbed structured collar and a refined two-button placket closure.",
+    "price": 9999,
+    "category": "Fashion",
+    "stock": 90,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=800"
+  },
+  {
+    "name": "Casual Blazer",
+    "description": "Lightweight unlined linen blazer designed to add a layer of sharp sophistication to your favorite evening casual combinations.",
+    "price": 86999,
+    "category": "Fashion",
+    "stock": 57,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800"
+  },
+  {
+    "name": "Women's Kurti",
+    "description": "Elegant traditional cotton kurti tunic showcasing intricate ethnic embroidery motifs, lightweight flow, and a comfortable regular fit.",
+    "price": 114999,
+    "category": "Fashion",
+    "stock": 82,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800"
+  },
+  {
+    "name": "Floral Dress",
+    "description": "Breezy and bright A-line summer dress featuring an all-over vibrant floral design pattern and elegant flowing tiered details.",
+    "price": 101999,
+    "category": "Fashion",
+    "stock": 70,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800"
+  },
+  {
+    "name": "Leather Jacket",
+    "description": "Edgy asymmetrical moto motorcycle jacket built from premium genuine leather, complete with robust metallic heavy zipper accents.",
+    "price": 118499,
+    "category": "Fashion",
+    "stock": 98,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800"
+  },
+  {
+    "name": "Cotton Shirt",
+    "description": "Breathable, lightweight 100% natural organic cotton casual shirt, ideal for warm weather comfort and styling versatility.",
+    "price": 24999,
+    "category": "Fashion",
+    "stock": 89,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800"
+  },
+  {
+    "name": "Printed Hoodie",
+    "description": "Urban fashion pullover hoodie featuring a bold, expressive high-definition graphic print across the chest panel.",
+    "price": 64499,
+    "category": "Fashion",
+    "stock": 26,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800"
+  },
+  {
+    "name": "Sports Jacket",
+    "description": "All-weather performance track windbreaker tailored with dynamic moisture-wicking technology and flexible athletic seams.",
+    "price": 59999,
+    "category": "Fashion",
+    "stock": 10,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=800"
+  },
+  {
+    "name": "Track Pants",
+    "description": "Comfortable athleisure joggers equipped with an elasticized waistband, practical secure side-zipper pockets, and tapered ankles.",
+    "price": 27499,
+    "category": "Fashion",
+    "stock": 91,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1509551388413-e18d0ac5d495?w=800"
+  },
+  {
+    "name": "Summer Top",
+    "description": "Chic, sleeveless lightweight top featuring a elegant scoop neckline, perfect for matching with denim or shorts during warmer months.",
+    "price": 16999,
+    "category": "Fashion",
+    "stock": 48,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800"
+  },
+  {
+    "name": "Winter Sweater",
+    "description": "Thickly insulated soft cable-knit wool sweater engineered to offer maximum cozy warmth and classic winter styling.",
+    "price": 4499,
+    "category": "Fashion",
+    "stock": 45,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1620799139507-2a76f79a2f4d?w=800"
+  },
+  {
+    "name": "Casual Shorts",
+    "description": "Relaxed twill chino shorts designed to sit comfortably above the knee, offering an effortless choice for warm weekends.",
+    "price": 24999,
+    "category": "Fashion",
+    "stock": 55,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800"
+  },
+  
+  {
+    "name": "Designer Handbag",
+    "description": "Structured upscale shoulder bag crafted from fine textured vegan leather, highlighting clean architectural lines and gold metal hardware.",
+    "price": 13999,
+    "category": "Fashion",
+    "stock": 28,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800"
+  },
+  {
+    "name": "Nike Air Force 1",
+    "description": "Legendary low-cut basketball silhouette sneaker featuring smooth premium all-white leather paneling and comfortable air-sole units.",
+    "price": 17499,
+    "category": "Shoes",
+    "stock": 45,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=800"
+  },
+  {
+    "name": "Nike Dunk Low",
+    "description": "Classic color-blocked retro skate and lifestyle sneaker featuring low profile flexibility, durable rubber cupsole construction.",
+    "price": 104499,
+    "category": "Shoes",
+    "stock": 48,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1597045566677-8cf032ed6634?w=800"
+  },
+  {
+    "name": "Adidas Ultraboost",
+    "description": "Premium elite energy-returning running footwear built with a responsive cushion midsole and a flexible Primeknit upper sock wrap.",
+    "price": 97999,
+    "category": "Shoes",
+    "stock": 59,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1539185441755-769473a23570?w=800"
+  },
+  
+  {
+    "name": "Puma RS-X",
+    "description": "Chunky retro-futuristic bulky lifestyle sneaker boasting bold contrasting multi-material mesh overlays and dynamic cushioned padding.",
+    "price": 103999,
+    "category": "Shoes",
+    "stock": 26,
+    "rating": 5.0,
+    "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=800"
+  },
+  {
+    "name": "Converse Chuck Taylor",
+    "description": "The immortal authentic high-top canvas sneaker showcasing iconic star ankle patches, vulcanized rubber caps, and vintage Americana appeal.",
+    "price": 83499,
+    "category": "Shoes",
+    "stock": 10,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=800"
+  },
+  {
+    "name": "Vans Old Skool",
+    "description": "Classic skate shoe that debuted the legendary side stripe accent, built tough with low-top lace profiles and signature waffle soles.",
+    "price": 79999,
+    "category": "Shoes",
+    "stock": 18,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=800"
+  },
+  
+  {
+    "name": "Skechers Go Walk",
+    "description": "Ultra-lightweight mesh slip-on shoe prioritizing ultimate underfoot support, adaptive flexibility, and painless long walking sessions.",
+    "price": 80999,
+    "category": "Shoes",
+    "stock": 15,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=800"
+  },
+  {
+    "name": "ASICS Gel Kayano",
+    "description": "Top-tier premium stability distance running trainer featuring gel impact absorption compounds and advanced overpronation control.",
+    "price": 103999,
+    "category": "Shoes",
+    "stock": 22,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=800"
+  },
+  {
+    "name": "Campus Sneakers",
+    "description": "Trendy lifestyle athletic shoes utilizing deep ribbed breathable knit textiles for a lightweight bounce step vibe.",
+    "price": 34499,
+    "category": "Shoes",
+    "stock": 35,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=800"
+  },
+  {
+    "name": "Woodland Boots",
+    "description": "Heavy-duty rugged hiking outdoor boots crafted from thick water-resistant nubuck leather and deep traction grooved soles.",
+    "price": 59499,
+    "category": "Shoes",
+    "stock": 69,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=800"
+  },
+  {
+    "name": "Formal Leather Shoes",
+    "description": "Sophisticated elegant mens genuine leather Oxford dress shoes highlighted by sleek polished finishes and exquisite lace detailing.",
+    "price": 65999,
+    "category": "Shoes",
+    "stock": 84,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=800"
+  },
+  {
+    "name": "Running Shoes Pro",
+    "description": "Elite carbon-plated professional marathon marathon shoes maximized for explosive lightweight propulsion and pace tracking upgrades.",
+    "price": 96999,
+    "category": "Shoes",
+    "stock": 12,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=800"
+  },
+  {
+    "name": "Apple Watch",
+    "description": "Sleek minimalist smartwatch ecosystem blending smooth health tracking diagnostics with intuitive touch interaction controls.",
+    "price": 53499,
+    "category": "Watches",
+    "stock": 38,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800"
+  },
+  {
+    "name": "Samsung Galaxy Watch",
+    "description": "Refined circular dial bezel smart device built for robust body composition analysis and advanced active sleep monitoring metrics.",
+    "price": 16499,
+    "category": "Watches",
+    "stock": 48,
+    "rating": 5.0,
+    "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800"
+  },
+  {
+    "name": "Fossil Gen 6",
+    "description": "Elegant premium metal smartwatch connecting classic premium watch design watch faces with fast multi-charging wear OS mechanics.",
+    "price": 48499,
+    "category": "Watches",
+    "stock": 72,
+    "rating": 5.0,
+    "image": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=800"
+  },
+  {
+    "name": "Casio G-Shock",
+    "description": "Indestructible legendary rugged sports watch boasting world-renowned shock resistance, heavy-duty build, and accurate dive timing tools.",
+    "price": 110499,
+    "category": "Watches",
+    "stock": 96,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=800"
+  },
+  {
+    "name": "Titan Edge",
+    "description": "Masterpiece of minimalist watchmaking, presenting an ultra-slim sleek metal dial profiling absolute professional sophistication.",
+    "price": 47499,
+    "category": "Watches",
+    "stock": 32,
+    "rating": 4.1,
+    "image": "https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?w=800"
+  },
+  {
+    "name": "Titan Neo",
+    "description": "Contemporary timeless dress watch featuring clean simple hour mark configurations and durable comfortable leather wrist strap loops.",
+    "price": 107999,
+    "category": "Watches",
+    "stock": 17,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=800"
+  },
+  {
+    "name": "Noise ColorFit",
+    "description": "Trendy fitness smart bracelet displaying vivid touchscreen colorful interface modules and regular heart oxygen monitoring tools.",
+    "price": 45499,
+    "category": "Watches",
+    "stock": 86,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?w=800"
+  },
+  {
+    "name": "Fire-Boltt Ninja",
+    "description": "Sleek budget fitness watch featuring comprehensive sport data logging trackers and extensive long battery multi-day capacity capabilities.",
+    "price": 76999,
+    "category": "Watches",
+    "stock": 61,
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1517502884422-41eaaced0168?w=800"
+  },
+  {
+    "name": "Garmin Forerunner",
+    "description": "Professional performance athletic sports watch detailing fine-tuned satellite GPS coordinates and meticulous custom race pace analysis.",
+    "price": 106499,
+    "category": "Watches",
+    "stock": 63,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?w=800"
+  },
+  {
+    "name": "Amazfit GTR",
+    "description": "Luxury aesthetic smart tracker utilizing an elegant metallic outer finish bezel alongside a rich power-efficient AMOLED interface panel.",
+    "price": 36499,
+    "category": "Watches",
+    "stock": 92,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1619134778706-7015533a6150?w=800"
+  },
+  {
+    "name": "Fastrack Reflex",
+    "description": "Fun, youth-centric vibrant smart accessory delivering easy music control utilities and quick call notifications features.",
+    "price": 90999,
+    "category": "Watches",
+    "stock": 74,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1622434641406-a158123450f9?w=800"
+  },
+  {
+    "name": "Citizen Eco Drive",
+    "description": "Premium self-sustaining watch engineering powered continuously by light sources, eliminating battery swap needs entirely.",
+    "price": 58499,
+    "category": "Watches",
+    "stock": 65,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1623998021450-85c24c626a5a?w=800"
+  },
+  {
+    "name": "Seiko 5",
+    "description": "Legendary precision automatic mechanical luxury watch utilizing fine internal automatic self-winding systems and visible skeletal backings.",
+    "price": 65999,
+    "category": "Watches",
+    "stock": 44,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1701045234544-77dbdfbe2030?w=800"
+  },
+  {
+    "name": "Tissot PRX",
+    "description": "High-end luxury steel sports wrist watch displaying distinct waffle patterned blue dial detailing and integrated sleek link metal bands.",
+    "price": 84999,
+    "category": "Watches",
+    "stock": 22,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1639006570490-79c0c53f1080?w=800"
+  },
+  {
+    "name": "Timex Expedition",
+    "description": "Classic field style watch configured for rugged travel, showcasing strong luminous numeric dials and high-grade resilient canvas straps.",
+    "price": 55999,
+    "category": "Watches",
+    "stock": 28,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1600003014755-ba31aa59c4b6?w=800"
+  },
+  {
+    "name": "Study Table",
+    "description": "Minimalist geometric writing desk featuring integrated multi-tier side organization racks and sleek modern wooden surfaces.",
+    "price": 23499,
+    "category": "Furniture",
+    "stock": 82,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=800"
+  },
+  {
+    "name": "Modern Sofa",
+    "description": "Expansive luxury upholstered contemporary lounge couch detailing premium deep memory foam cores and rich woven velvet finish textures.",
+    "price": 22999,
+    "category": "Furniture",
+    "stock": 81,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800"
+  },
+  {
+    "name": "Coffee Table",
+    "description": "Chic accent center low table mixing warm natural solid oak wood textures with industrial powder-coated metal framing legs.",
+    "price": 40999,
+    "category": "Furniture",
+    "stock": 66,
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?w=800"
+  },
+  {
+    "name": "TV Unit",
+    "description": "Sleek low-profile entertainment console console configured with wire routing cutouts and spacious sliding doors for system media storage.",
+    "price": 13999,
+    "category": "Furniture",
+    "stock": 87,
+    "rating": 5.0,
+    "image": "https://images.unsplash.com/photo-1595428774223-ef52624120d2?w=800"
+  },
+  {
+    "name": "Bed Frame",
+    "description": "Solid hardwood platform bed frame structure accented by a elegant tufted vertical-line fabric headboard configuration.",
+    "price": 111499,
+    "category": "Furniture",
+    "stock": 73,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800"
+  },
+  {
+    "name": "Wooden Wardrobe",
+    "description": "Tall multi-door storage wardrobe closet constructed with inner vanity viewing mirror attachments and heavy iron hanging garments bars.",
+    "price": 88999,
+    "category": "Furniture",
+    "stock": 24,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800"
+  },
+  {
+    "name": "Bookshelf",
+    "description": "Five-tier open structural library shelving tower constructed from durable dark walnut wood grain veneers for display organization.",
+    "price": 30499,
+    "category": "Furniture",
+    "stock": 66,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?w=800"
+  },
+  {
+    "name": "Dining Table",
+    "description": "Spacious family dining room tabletop pairing a gorgeous polished solid stone quartz slab top with heavy tapering solid ash wood legs.",
+    "price": 18499,
+    "category": "Furniture",
+    "stock": 76,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?w=800"
+  },
+  {
+    "name": "Recliner Chair",
+    "description": "Luxury overstuffed push-back armchair executing seamless mechanical footrest elevation movements and deep cloud cushioned padding panels.",
+    "price": 45999,
+    "category": "Furniture",
+    "stock": 38,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800"
+  },
+  {
+    "name": "Computer Desk",
+    "description": "Spacious dual monitor home workstation configured with dual utility drawers and scratch resistant matte laminates layouts surfaces.",
+    "price": 110499,
+    "category": "Furniture",
+    "stock": 73,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1547005327-ef75a6961556?w=800"
+  },
+  {
+    "name": "Side Table",
+    "description": "Compact bedside accent nightstand table showcasing single smooth-glide storage drawers for small dynamic device accessibility.",
+    "price": 31999,
+    "category": "Furniture",
+    "stock": 17,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800"
+  },
+ 
+  {
+    "name": "Storage Cabinet",
+    "description": "Versatile utility credenza sideboard dresser boasting adjustable inner partitioning boards for hidden multi-purpose room storage solutions.",
+    "price": 87499,
+    "category": "Furniture",
+    "stock": 23,
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800"
+  },
+  {
+    "name": "Bean Bag",
+    "description": "Cozy teardrop profile floor beanbag seat stuffed with high density responsive foam pellets for immediate comfortable adaptive resting.",
+    "price": 26999,
+    "category": "Furniture",
+    "stock": 25,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=800"
+  }
+]
