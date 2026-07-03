@@ -5,9 +5,16 @@ const jwt = require("jsonwebtoken");
 
 // Generate JWT
 const generateToken = (id) => {
-  return jwt.sign({ id }, process.env.JWT_SECRET, {
-    expiresIn: process.env.JWT_EXPIRE,
-  });
+  console.log("JWT_SECRET:", process.env.JWT_SECRET);
+  console.log("JWT_EXPIRE:", process.env.JWT_EXPIRE);
+
+  return jwt.sign(
+    { id },
+    process.env.JWT_SECRET,
+    {
+      expiresIn: process.env.JWT_EXPIRE || "7d",
+    }
+  );
 };
 
 // Register User
