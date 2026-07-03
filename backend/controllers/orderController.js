@@ -5,7 +5,10 @@ const Order = require("../models/Order");
 // ======================
 const placeOrder = async (req, res) => {
   try {
-    const order = await Order.create(req.body);
+    const order = await Order.create({
+      ...req.body,
+      user: req.user._id,
+    });
 
     res.status(201).json({
       success: true,
@@ -21,13 +24,21 @@ const placeOrder = async (req, res) => {
 };
 
 // ======================
-// Get All Orders
+// Get Orders
 // ======================
 const getOrders = async (req, res) => {
   try {
-    const orders = await Order.find().sort({
-      createdAt: -1,
-    });
+    let orders;
+
+    if (req.user.role === "admin") {
+      orders = await Order.find()
+        .populate("user", "name email")
+        .sort({ createdAt: -1 });
+    } else {
+      orders = await Order.find({
+        user: req.user._id,
+      }).sort({ createdAt: -1 });
+    }
 
     res.json(orders);
   } catch (error) {
@@ -61,10 +72,9 @@ const getOrder = async (req, res) => {
   }
 };
 
-
-
-//order status update//
-
+// ======================
+// Update Order Status
+// ======================
 const updateOrderStatus = async (req, res) => {
   try {
     const order = await Order.findByIdAndUpdate(

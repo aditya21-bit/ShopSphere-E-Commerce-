@@ -4,22 +4,23 @@ const {
   placeOrder,
   getOrders,
   getOrder,
-    updateOrderStatus,
+  updateOrderStatus,
 } = require("../controllers/orderController");
 
+const { protect } = require("../middleware/authMiddleware");
 
 const router = express.Router();
 
 // Place Order
-router.post("/", placeOrder);
+router.post("/", protect, placeOrder);
 
-// Get All Orders
-router.get("/", getOrders);
+// Get Orders
+router.get("/", protect, getOrders);
 
 // Get Single Order
-router.get("/:id", getOrder);
+router.get("/:id", protect, getOrder);
 
 // Update Order Status
-router.put("/:id", updateOrderStatus);
+router.put("/:id", protect, updateOrderStatus);
 
 module.exports = router;

@@ -23,11 +23,18 @@ function Orders() {
   }, []);
 
   const fetchOrders = async () => {
-    try {
-      const { data } = await API.get("/orders");
+ try {
+  const token = localStorage.getItem("token");
+
+  const { data } = await API.get("/orders", {
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  });
 
       setOrders(data);
     } catch (error) {
+      console.log(error);
       toast.error("Failed to load orders");
     } finally {
       setLoading(false);
